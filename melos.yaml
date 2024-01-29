@@ -1,0 +1,10 @@
+name: my_project
+
+packages:
+  - packages/package_a
+  - packages/package_b
+  - packages/package_c
+  ## package D is uuid v3 / v4 as per the example graph
+
+  # Disabling package_e should allow a successful bootstrap
+  # - packages/package_e

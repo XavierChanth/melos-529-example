@@ -1,0 +1,9 @@
+name: package_e
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  package_b: ^1.0.0
+  package_c: ^1.0.0
